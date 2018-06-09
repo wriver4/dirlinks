@@ -1,0 +1,22 @@
+html, body {height: 100%;font-family: georgia;}
+body{background:#d3d3d3; width:800px; margin:10px auto;}
+a{text-decoration:none; color:#000000;}
+#wrap {min-height: 100%; width:960px; margin:10px auto;}
+#main {width:100%; overflow:auto;padding-bottom: 10px;}
+#header{width:100%; margin:10px auto;text-align:center;}
+#content {width:100%; margin:0 auto;}
+.simplePagerContainer{margin: 10px;}
+#footer {position: relative;margin-top: -10px; height: 150px;width:100%;}    
+h1, h2,ul { clear: both;}
+.pagination{margin:0 auto;padding:0;}
+.simplePagerNav {padding-top:10px;margin: 0 auto;}
+ul.pagination li:hover{background-color: #FFFFFF;}
+ul.pagination li{padding: 10px;background-color: #A9A9A9;font-size: 24px;color: #ffffff;line-height: 1;width:95%;margin-bottom: 1px;list-style:none;}
+ul.simplePagerNav{float:right;}
+ul.simplePagerNav li{display:block;float: left;padding: 10px;margin-bottom: 10px;font-family: georgia;font-size:24px;}
+ul.simplePagerNav li a{color: #333;text-decoration: none; }
+li.currentPage {background: #666;color: #FFF;}
+ul.simplePagerNav li.currentPage a {color: #000000;}
+.column-a, .column-b {margin: 0;padding: 0;border: 0;float: left;min-height: 1px}
+.container .column-a, .container .column-b {width: 50%}
+.container .column-a {clear: left}
