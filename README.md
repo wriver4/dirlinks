@@ -16,4 +16,3 @@ Installation:
 
   1. Put dirlinks folder in the virtual host directory and create host
   
-I will implement S-UI in the future. 
